@@ -16,6 +16,14 @@ describe("SignUp Page",() => {
     cy.get(signup.signupBtn).click()
     cy.get(signup.dontHaveAnAcc).click()
     cy.get(signup.firstNameField).type('John')
+    cy.get(signup.lastNameField).type('Chimezie')
+    cy.get(signup.emailAddressField).type('Joemie1@gmail.com')
+    cy.get(signup.phoneNumberField).type('08141313551')
+    cy.get(signup.passwordField).type('case@study')
+    cy.get(signup.createAccountBtn).click()
+
+
+  
     
   
 
